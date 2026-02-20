@@ -23,6 +23,7 @@ router.post(
   },
   authController.register,
 );
+router.post("/login", authController.login);
 router.get("/protected", authMiddleware, (req, res) => {
   res.json({
     message: "You accessed protected route",
