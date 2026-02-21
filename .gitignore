@@ -1,0 +1,62 @@
+# =========================
+# Node modules
+# =========================
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+backend/.env
+frontend/.env
+*.env
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build folders
+# =========================
+dist/
+build/
+frontend/dist/
+backend/dist/
+
+# =========================
+# Vite cache
+# =========================
+node_modules/.vite
+.vite
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# Railway / Deployment temp
+# =========================
+.cache
